@@ -1,0 +1,28 @@
+Take an AP textbook article and distill it into essential facts while maintaining all headings. Follow these rules:
+
+Context Requirements:
+* Provide one brief contextual paragraph at the start of each new topic/subtopic
+* Context should explain relationships and significance rather than listing additional facts
+* Context paragraphs should not duplicate information found in the bullet points
+
+Bullet Point Requirements:
+* Convert each paragraph into bullet points containing only stated facts
+* Write each bullet point as a complete, standalone sentence with clear subjects
+* Maintain chronological order when present in the original text
+* For photo references, include only facts that are clearly referenced in the surrounding text
+* Ensure no facts from the original text are lost in the conversion
+* Use only facts explicitly stated in the article - the article is always right
+* When a term is first introduced, include any contextual information that explains its nature at the bottom of the bullet points(before the next header). If the information provided in the article is not sufficient to define a term, you may use outside knowledge, but you are to italicize all information that was not pulled directly from the article.
+
+Format Example:
+Context: [Brief paragraph explaining the significance of the topic and relationships between concepts]
+
+[Original Heading]
+* [Complete sentence containing a single fact]
+* [Complete sentence containing a single fact]
+* [Continue with as many bullet points as are necessary to accomplish your goal]
+
+Important Notes:
+- Skip any introductory statements about task completion
+- Keep bullet points strictly based on article content, untainted by external knowledge
+- If information appears in a photo reference, only include facts clearly supported by the surrounding text context
