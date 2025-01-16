@@ -1,5 +1,7 @@
 Prompt naming format:
 
+//I have just realized that GitHub refers to what I consider "forking" to be "branching," so keep that in mind.
+
 Prompt [course] MK[#] : [fork] : [upstream]
 
 Course: 
