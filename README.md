@@ -4,14 +4,15 @@ Prompt [course] MK[#] : [fork] : [upstream]
 
 Course: 
   -The course is the abbreviated name for the AP course, for example, if the prompt is for AP United States History, the course would be USH; For AP Biology, it would be Bio.
-  -If there is more than one course the prompt works with, put a "+" between the two course names, for example: USH+Bio, or WH:M+Calc.
+  -If there is more than one course the prompt works with, put a "+" between the two course names, for example: USH+Bio, or WH+Calc.
   -If the prompt has no specific course, put "General" where the course name would go.
 
 MK:
   -If the version you are creating is the first for its AP course, put "1".
-  -If the version you are creating is not the first for a specific AP course or General, it is the next in the sequence, for example: if the last published version of a Bio prompt was MK4, the next published would be MK5.
-  -Even if the other version is present in a different fork, it is still the next for it's fork.
+  -If the version you are creating is not the first for a specific AP course or General, it is the next in the sequence; for example, if the last version of a Bio prompt was MK4, the next would be Bio MK5.
+  -Even if the other version is present in a different fork, it is still the next for its fork.
   -For example, if the last HuG prompt was MK3 and a fork of Prompt MK1, and the new one is a fork of Prompt General MK2, the name of the new version is still MK4.
+  -To sum it up in simpler terms, the numbering is based on the AP course, not the lineage.
 
 fork:
   -The name prompt version that this was based on, includes the whole name.
@@ -35,4 +36,13 @@ Prompt General MK7 : - : Original
 
 Prompt HuG MK1 : WH MK3 : General MK1
 
+Prompt HuG MK2 : General MK2 : fsu
 
+Prompt Bio+HuG MK4 : Bio+Hug MK3 : General MK2
+
+
+Course Abbreviations:
+Bio = Biology
+HuG = Human Geography
+WH = World History(: Modern)
+USH = United States History
